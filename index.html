@@ -6,18 +6,89 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-        #cartao {
+        #espaco {
             margin-top: 4%;
 
         }
 
-        #imgCartao {
+        .imgCartao {
             width: 40%;
         }
 
+        .tamanhoTexto {
+            width: 40%;
+        }
+
+        .logoTamanho {
+            width: auto;
+        }
+
+        .formulario {
+            background-color: #1470A1;
+        }
+
+        #contatos {
+            color: #9EC9A5;
+            font-size: 35px;
+        }
+
+        ::-webkit-input-placeholder {
+            text-decoration-color: #8EB5CD;
+        }
+
+        .btnTamanho {
+            width: 30%;
+        }
+
+        @media screen and (max-width: 600px) {
+            .mostrar {
+                display: block;
+                width: auto;
+            }
+
+            .esconder {
+                display: none;
+            }
+
+            .logoTamanho {
+                width: 80%;
+            }
+
+            .cartaoTamanho {
+                width: auto;
+            }
+
+            .tamanhoTexto {
+                width: 100%;
+            }
+
+            .imgCartao {
+                width: 100%;
+            }
+
+            .textoImagem {
+                text-decoration: none;
+                font-size: 17px;
+                font-style: italic;
+            }
+
+            .carouselAjustes {
+                width: 100%;
+                margin-top: 25%;
+            }
+
+            .btnTamanho {
+                width: 100%;
+            }
+        }
+
         @media screen and (min-width: 600px) {
-            #irPraDireita {
-                margin-left: 60%;
+            .esconder {
+                display: block;
+            }
+
+            .mostrar {
+                display: none;
             }
         }
     </style>
@@ -25,87 +96,266 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--HamburgerMenu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="tela.css">
+
 
     <title>VI Encontro do Semiárido</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">
-            <img src="Imagens/logo.png" style="width: auto;">
-        </a>
-        <!-- Links -->
-        <ul class="navbar-nav" id="irPraDireita">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Programação</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Inscrições</a>
-            </li>
+
+    <div class="container-fluid mostrar">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="index.html">
+                <img class="logoTamanho" src="Imagens/logo.png">
+            </a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                        class="fas fa-bars fa-1x"></i></span></button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Programação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inscrições</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Conheça Campina Grande</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Hospedagem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contate-nos</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid esconder">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img class="logoTamanho" src="Imagens/logo.png">
+            </a>
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Programação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inscrições</a>
+                </li>
 
 
 
-            <!-- Dropdown -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    Mais Informações
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Conheça Campina Grande</a>
-                    <a class="dropdown-item" href="#">Hospedagem</a>
-                    <a class="dropdown-item" href="#">Contate-nos</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
+
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Mais Informações
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Conheça Campina Grande</a>
+                        <a class="dropdown-item" href="#">Hospedagem</a>
+                        <a class="dropdown-item" href="#">Contate-nos</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <br>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Carousel-->
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade carouselAjustes" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="Imagens/campina.jpg"  alt="campina 01">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Imagens/campina02.jpg" alt="campina 02">
-          </div>
-        
-        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-      </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100 img-fluid" src="Imagens/campina.jpg" alt="campina 01">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 img-fluid" src="Imagens/campina02.jpg" alt="campina 02">
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
         <!--CARD-->
-        <div class="d-lg-flex justify-content-center" id="cartao">
-            <div class="card" id="imgCartao">
-                <img class="card-img-top img-fluid" src="Imagens/02.jpg" alt="Card image cap">
-                <div class="card-img-overlay">
-                    <h1 class="card-title text-white text-center">"Da terra ao céu, uma viagem sustentável"</h1>                    
+        <div class="container-fluid">
+            <div class="d-lg-flex justify-content-center" id="espaco">
+                <div class="card imgCartao">
+                    <img class="card-img-top img-fluid" src="Imagens/02.jpg" alt="Card image cap">
+                    <div class="card-img-overlay ">
+                        <h1 class="card-title text-white text-center textoImagem">"Da terra ao céu, uma viagem
+                            sustentável"</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="card text-center tamanhoTexto">
+                    <div class="card-body">
+                        <p class="card-text text-justify">A Semana de Popularização da Ciência no Semiárido é uma
+                            proposta
+                            de
+                            fortalecimento e consolidação de ações na área de popularização e difusão de ciência,
+                            tecnologia
+                            e inovação na região. Uma iniciativa que mobiliza instituições públicas e da sociedade civil
+                            em
+                            torno de questões contextualizadas e de melhoria da vida das pessoas, tendo em vista, que é
+                            importante e necessário criar novos espaços de debates, análises e reflexões, de
+                            compartilhamento e de saberes, buscando o protagonismo nos processos de aprendizagem e
+                            descobrimento. No seu quinto ano de existência a SPCSA acontecerá no município de Serra
+                            Talhada
+                            entre os dias 29 e 31 de maio deste ano de 2019. Terá uma ampla participação de toda a
+                            comunidade educacional do entorno da cidade de Serra Talhada e contará com o apoio efetivo
+                            da
+                            prefeitura da cidade e instituições das mais diversas como escolas, faculdades,
+                            universidades e
+                            ONGs.</p>
+                        <a href="https://www.sympla.com.br/" class="btn btn-success btn-lg active" role="button"
+                            aria-pressed="true">Inscrições</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center">
-            <div class="card text-center" style="width: 40%">
-                <div class="card-body ">
-                    <p class="card-text text-justify">A Semana de Popularização da Ciência no Semiárido é uma proposta de
-                        fortalecimento e consolidação de ações na área de popularização e difusão de ciência, tecnologia
-                        e inovação na região. Uma iniciativa que mobiliza instituições públicas e da sociedade civil em
-                        torno de questões contextualizadas e de melhoria da vida das pessoas, tendo em vista, que é
-                        importante e necessário criar novos espaços de debates, análises e reflexões, de
-                        compartilhamento e de saberes, buscando o protagonismo nos processos de aprendizagem e
-                        descobrimento. No seu quinto ano de existência a SPCSA acontecerá no município de Serra Talhada
-                        entre os dias 29 e 31 de maio deste ano de 2019. Terá uma ampla participação de toda a
-                        comunidade educacional do entorno da cidade de Serra Talhada e contará com o apoio efetivo da
-                        prefeitura da cidade e instituições das mais diversas como escolas, faculdades, universidades e
-                        ONGs.</p> 
-                        <a href="https://www.sympla.com.br/" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Inscrições</a>                         
+
+        <div class="tela1">
+            <div class="container">
+
+                <div class="imagem-um">
+                    <img src="imagens/cid1.jpg">
                 </div>
-            </div>    
+
+                <div class="titulo-cidade">
+                    <h1>Conheça Campina Grande</h1>
+                </div>
+
+                <div class="paragrafo1">
+                    <p>
+
+                        Campina Grande é um município brasileiro no estado da Paraíba. Considerada um dos principais
+                        polos
+                        industriais da Região Nordeste, foi fundada em 1 de dezembro de 1697, tendo sido elevada à
+                        categoria
+                        de
+                        cidade em 11 de outubro de 1864. Pertence à Região Geográfica Imediata de Campina Grande e à
+                        Região
+                        Geográfica Intermediária de Campina Grande. De acordo com estimativas do IBGE de 2018, sua
+                        população
+                        era
+                        de 407 472 habitantes, sendo a segunda cidade mais populosa da Paraíba, e sua região
+                        metropolitana,
+                        formada por dezenove municípios, possui uma população estimada em 638 017 habitantes.
+
+                        Campina Grande é um importante centro universitário, contando com vinte e uma universidades e
+                        faculdades, sendo três delas públicas. E também é a cidade com proporcionalmente o maior número
+                        de
+                        doutores do Brasil, 1 para cada 590 habitantes, seis vezes a média nacional. Além de ensino
+                        superior, o município é destaque também em centros de capacitação para o nível médio e técnico.
+                        Também
+                        possui o segundo maior PIB entre os municípios paraibanos, representando 15,63% do total das
+                        riquezas
+                        produzidas na Paraíba. Uma evidência do desenvolvimento da cidade nos últimos tempos é o ranking
+                        da
+                        revista Você S/A, no qual Campina Grande aparece como uma das 100 melhores cidades para se
+                        trabalhar
+                        e
+                        fazer carreira do Brasil, única cidade do interior entre as capitais escolhidas no país. O
+                        município
+                        é ainda considerado a cidade mais dinâmica do Nordeste e a 6ª mais dinâmica do Brasil segundo "A
+                        Gazeta
+                        Mercantil" e foi apontada como uma das 20 metrópoles brasileiras do futuro.</p>
+
+                </div>
+
+                <div class="botao1">
+                    <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Saiba Mais</a>
+                </div>
+
+            </div>
         </div>
-        
+
+        <div class="tela1">
+            <div class="container">
+
+                <div class="imagem-um">
+                    <img src="imagens/ins1.png">
+                </div>
+
+                <div class="titulo-cidade">
+                    <h1>Conheça o Insa</h1>
+                </div>
+
+                <div class="paragrafo1">
+                    <p>
+                        O Instituto Nacional do Semiárido (Insa) é uma unidade de pesquisa integrante do Ministério da
+                        Ciência, Tecnologia, Inovações e Comunicações (MCTIC), com enfoque no Semiárido brasileiro. Como
+                        uma
+                        instituição federal de pesquisa, articula, realiza, promove e divulga Ciência, Tecnologia e
+                        Inovação
+                        como patrimônios universais para o bem da sociedade e, particularmente, do Semiárido brasileiro.
+                        O
+                        Instituto também tem inserção internacional como correspondente científico do Brasil junto à
+                        Convenção das Nações Unidas para o Combate à Desertificação (UNCCD).
+                    </p>
+                </div>
+
+                <div class="botao1">
+                    <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Saiba Mais</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-desenho formulario">
+            <div class="container-fluid">
+                <form class="formulario-contato btnTamanho">
+
+                    <div class="form-group">
+                        <label id="contatos">Contate-nos</label>
+                        <input type="text" class="form-control " id="nome-um" placeholder="nome">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email-um" placeholder="email">
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-control" id="mensagem-um" rows="3"
+                            placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+
+                    <div>
+                        <button type="button" class="botao">Enviar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
 
 
         <!-- JavaScript (Opcional) -->
