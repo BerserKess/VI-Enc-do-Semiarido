@@ -40,6 +40,8 @@
             width: 30%;
         }
 
+
+
         @media screen and (max-width: 600px) {
             .mostrar {
                 display: block;
@@ -105,21 +107,21 @@
 </head>
 
 <body>
-
+    <!--Navbar Celular-->
     <div class="container-fluid mostrar">
         <!--Navbar-->
         <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
 
             <!-- Navbar brand -->
             <a class="navbar-brand" href="index.html">
-                <img class="logoTamanho" src="Imagens/logo.png">
+                <img class="logoTamanho img-fluid" src="Imagens/logo.png">
             </a>
 
             <!-- Collapse button -->
-            <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="dark-blue-text"><i
-                        class="fas fa-bars fa-1x"></i></span></button>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+                aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+
 
             <!-- Collapsible content -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent1">
@@ -147,24 +149,23 @@
             </div>
         </nav>
     </div>
+    <!--Navbar PC-->
     <div class="container-fluid esconder">
+
         <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="index.html">
                 <img class="logoTamanho" src="Imagens/logo.png">
             </a>
             <!-- Links -->
-            <ul class="navbar-nav">
+
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Programação</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Inscrições</a>
                 </li>
-
-
-
-
 
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
@@ -178,6 +179,7 @@
                     </div>
                 </li>
             </ul>
+
         </nav>
     </div>
     <br>
@@ -241,7 +243,7 @@
                 </div>
             </div>
         </div>
-
+        <!--Saiba Mais-->
         <div class="tela1">
             <div class="container">
 
@@ -328,8 +330,31 @@
                 </div>
 
             </div>
-        </div>
-
+        </div><br><br>
+        <!--Realização e Parceiros-->
+        <div class="container-fluid">
+            <div class="d-flex justify-content-center">
+                <div class="p-2 justify-content-center">
+                    <h2>REALIZAÇÃO</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="p-2">
+                    <img class="img-fluid" src="Imagens/realização.png" alt="Realização">
+                </div>
+            </div><br><br>
+            <div class="d-flex justify-content-center">
+                <div class="p-2 justify-content-center">
+                    <h2>PARCEIROS</h2>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="p-2">
+                    <img class="img-fluid" src="Imagens/parceiros.png" alt="Parceiros">
+                </div>
+            </div>
+        </div><br><br>
+        <!--Formulário-->
         <div class="container-desenho formulario">
             <div class="container-fluid">
                 <form class="formulario-contato btnTamanho">
