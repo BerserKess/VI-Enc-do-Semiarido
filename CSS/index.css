@@ -1,0 +1,87 @@
+#espaco {
+    margin-top: 4%;
+
+}
+
+.imgCartao {
+    width: 40%;
+}
+
+.tamanhoTexto {
+    width: 40%;
+}
+
+.logoTamanho {
+    width: auto;
+}
+
+.formulario {
+    background-color: #1470A1;
+}
+
+#contatos {
+    color: #9EC9A5;
+    font-size: 35px;
+}
+
+::-webkit-input-placeholder {
+    text-decoration-color: #8EB5CD;
+}
+
+.btnTamanho {
+    width: 30%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .mostrar {
+        display: block;
+        width: auto;
+    }
+
+    .esconder {
+        display: none;
+    }
+
+    .logoTamanho {
+        width: 80%;
+    }
+
+    .cartaoTamanho {
+        width: auto;
+    }
+
+    .tamanhoTexto {
+        width: 100%;
+    }
+
+    .imgCartao {
+        width: 100%;
+    }
+
+    .textoImagem {
+        text-decoration: none;
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    .carouselAjustes {
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    .btnTamanho {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .esconder {
+        display: block;
+    }
+
+    .mostrar {
+        display: none;
+    }
+}

@@ -6,101 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-        #espaco {
-            margin-top: 4%;
 
-        }
-
-        .imgCartao {
-            width: 40%;
-        }
-
-        .tamanhoTexto {
-            width: 40%;
-        }
-
-        .logoTamanho {
-            width: auto;
-        }
-
-        .formulario {
-            background-color: #1470A1;
-        }
-
-        #contatos {
-            color: #9EC9A5;
-            font-size: 35px;
-        }
-
-        ::-webkit-input-placeholder {
-            text-decoration-color: #8EB5CD;
-        }
-
-        .btnTamanho {
-            width: 30%;
-        }
-
-
-
-        @media screen and (max-width: 600px) {
-            .mostrar {
-                display: block;
-                width: auto;
-            }
-
-            .esconder {
-                display: none;
-            }
-
-            .logoTamanho {
-                width: 80%;
-            }
-
-            .cartaoTamanho {
-                width: auto;
-            }
-
-            .tamanhoTexto {
-                width: 100%;
-            }
-
-            .imgCartao {
-                width: 100%;
-            }
-
-            .textoImagem {
-                text-decoration: none;
-                font-size: 17px;
-                font-style: italic;
-            }
-
-            .carouselAjustes {
-                width: 100%;
-                margin-top: 25%;
-            }
-
-            .btnTamanho {
-                width: 100%;
-            }
-        }
-
-        @media screen and (min-width: 600px) {
-            .esconder {
-                display: block;
-            }
-
-            .mostrar {
-                display: none;
-            }
-        }
     </style>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--HamburgerMenu-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--CSS-->
     <link rel="stylesheet" href="tela.css">
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="stylesheet" href="CSS/index.css">
 
 
     <title>VI Encontro do Semiárido</title>
@@ -138,10 +54,13 @@
                         <a class="nav-link" href="#">Conheça Campina Grande</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">Conheça o INSA</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Hospedagem</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contate-nos</a>
+                        <a class="nav-link" href="#Contato">Contate-nos</a>
                     </li>
                 </ul>
                 <!-- Links -->
@@ -159,7 +78,7 @@
             </a>
             <!-- Links -->
 
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Programação</a>
                 </li>
@@ -174,8 +93,9 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="#">Conheça Campina Grande</a>
+                        <a class="dropdown-item" href="#">Conheça o INSA</a>
                         <a class="dropdown-item" href="#">Hospedagem</a>
-                        <a class="dropdown-item" href="#">Contate-nos</a>
+                        <a class="dropdown-item" href="#Contato">Contate-nos</a>
                     </div>
                 </li>
             </ul>
@@ -244,93 +164,108 @@
             </div>
         </div>
         <!--Saiba Mais-->
-        <div class="tela1">
-            <div class="container">
+        <div class="container-fluid">
 
-                <div class="imagem-um">
-                    <img src="imagens/cid1.jpg">
+            <div class="tela1">
+                <div class="container-tela">
+
+                    <div class="imagem-um">
+                        <img src="imagens/cid1.jpg">
+                    </div>
+
+                    <div class="titulo-cidade">
+                        <h1>Conheça Campina Grande</h1>
+                    </div>
+
+                    <div class="paragrafo1">
+                        <p>
+
+                            Campina Grande é um município brasileiro no estado da Paraíba. Considerada um dos principais
+                            polos
+                            industriais da Região Nordeste, foi fundada em 1 de dezembro de 1697, tendo sido elevada à
+                            categoria
+                            de
+                            cidade em 11 de outubro de 1864. Pertence à Região Geográfica Imediata de Campina Grande e à
+                            Região
+                            Geográfica Intermediária de Campina Grande. De acordo com estimativas do IBGE de 2018, sua
+                            população
+                            era
+                            de 407 472 habitantes, sendo a segunda cidade mais populosa da Paraíba, e sua região
+                            metropolitana,
+                            formada por dezenove municípios, possui uma população estimada em 638 017 habitantes.
+
+                            Campina Grande é um importante centro universitário, contando com vinte e uma universidades
+                            e
+                            faculdades, sendo três delas públicas. E também é a cidade com proporcionalmente o maior
+                            número
+                            de
+                            doutores do Brasil, 1 para cada 590 habitantes, seis vezes a média nacional. Além de ensino
+                            superior, o município é destaque também em centros de capacitação para o nível médio e
+                            técnico.
+                            Também
+                            possui o segundo maior PIB entre os municípios paraibanos, representando 15,63% do total das
+                            riquezas
+                            produzidas na Paraíba. Uma evidência do desenvolvimento da cidade nos últimos tempos é o
+                            ranking
+                            da
+                            revista Você S/A, no qual Campina Grande aparece como uma das 100 melhores cidades para se
+                            trabalhar
+                            e
+                            fazer carreira do Brasil, única cidade do interior entre as capitais escolhidas no país. O
+                            município
+                            é ainda considerado a cidade mais dinâmica do Nordeste e a 6ª mais dinâmica do Brasil
+                            segundo "A
+                            Gazeta
+                            Mercantil" e foi apontada como uma das 20 metrópoles brasileiras do futuro.</p>
+
+                    </div>
+
+                    <div class="botao1">
+                        <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Saiba
+                            Mais</a>
+                    </div>
+
                 </div>
-
-                <div class="titulo-cidade">
-                    <h1>Conheça Campina Grande</h1>
-                </div>
-
-                <div class="paragrafo1">
-                    <p>
-
-                        Campina Grande é um município brasileiro no estado da Paraíba. Considerada um dos principais
-                        polos
-                        industriais da Região Nordeste, foi fundada em 1 de dezembro de 1697, tendo sido elevada à
-                        categoria
-                        de
-                        cidade em 11 de outubro de 1864. Pertence à Região Geográfica Imediata de Campina Grande e à
-                        Região
-                        Geográfica Intermediária de Campina Grande. De acordo com estimativas do IBGE de 2018, sua
-                        população
-                        era
-                        de 407 472 habitantes, sendo a segunda cidade mais populosa da Paraíba, e sua região
-                        metropolitana,
-                        formada por dezenove municípios, possui uma população estimada em 638 017 habitantes.
-
-                        Campina Grande é um importante centro universitário, contando com vinte e uma universidades e
-                        faculdades, sendo três delas públicas. E também é a cidade com proporcionalmente o maior número
-                        de
-                        doutores do Brasil, 1 para cada 590 habitantes, seis vezes a média nacional. Além de ensino
-                        superior, o município é destaque também em centros de capacitação para o nível médio e técnico.
-                        Também
-                        possui o segundo maior PIB entre os municípios paraibanos, representando 15,63% do total das
-                        riquezas
-                        produzidas na Paraíba. Uma evidência do desenvolvimento da cidade nos últimos tempos é o ranking
-                        da
-                        revista Você S/A, no qual Campina Grande aparece como uma das 100 melhores cidades para se
-                        trabalhar
-                        e
-                        fazer carreira do Brasil, única cidade do interior entre as capitais escolhidas no país. O
-                        município
-                        é ainda considerado a cidade mais dinâmica do Nordeste e a 6ª mais dinâmica do Brasil segundo "A
-                        Gazeta
-                        Mercantil" e foi apontada como uma das 20 metrópoles brasileiras do futuro.</p>
-
-                </div>
-
-                <div class="botao1">
-                    <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Saiba Mais</a>
-                </div>
-
             </div>
+
+            <div class="tela1">
+                <div class="container-tela">
+
+                    <div class="imagem-um">
+                        <img src="imagens/ins1.png">
+                    </div>
+
+                    <div class="titulo-cidade">
+                        <h1>Conheça o Insa</h1>
+                    </div>
+
+                    <div class="paragrafo1">
+                        <p>
+                            O Instituto Nacional do Semiárido (Insa) é uma unidade de pesquisa integrante do Ministério
+                            da
+                            Ciência, Tecnologia, Inovações e Comunicações (MCTIC), com enfoque no Semiárido brasileiro.
+                            Como
+                            uma
+                            instituição federal de pesquisa, articula, realiza, promove e divulga Ciência, Tecnologia e
+                            Inovação
+                            como patrimônios universais para o bem da sociedade e, particularmente, do Semiárido
+                            brasileiro.
+                            O
+                            Instituto também tem inserção internacional como correspondente científico do Brasil junto à
+                            Convenção das Nações Unidas para o Combate à Desertificação (UNCCD).
+                        </p>
+                    </div>
+
+                    <div class="botao1">
+                        <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Saiba
+                            Mais</a>
+                    </div>
+
+                </div>
+
+
+            </div><br><br>
         </div>
-
-        <div class="tela1">
-            <div class="container">
-
-                <div class="imagem-um">
-                    <img src="imagens/ins1.png">
-                </div>
-
-                <div class="titulo-cidade">
-                    <h1>Conheça o Insa</h1>
-                </div>
-
-                <div class="paragrafo1">
-                    <p>
-                        O Instituto Nacional do Semiárido (Insa) é uma unidade de pesquisa integrante do Ministério da
-                        Ciência, Tecnologia, Inovações e Comunicações (MCTIC), com enfoque no Semiárido brasileiro. Como
-                        uma
-                        instituição federal de pesquisa, articula, realiza, promove e divulga Ciência, Tecnologia e
-                        Inovação
-                        como patrimônios universais para o bem da sociedade e, particularmente, do Semiárido brasileiro.
-                        O
-                        Instituto também tem inserção internacional como correspondente científico do Brasil junto à
-                        Convenção das Nações Unidas para o Combate à Desertificação (UNCCD).
-                    </p>
-                </div>
-
-                <div class="botao1">
-                    <a href="#" class="btn btn-success btn-lg active" role="button" aria-pressed="true">Saiba Mais</a>
-                </div>
-
-            </div>
-        </div><br><br>
         <!--Realização e Parceiros-->
         <div class="container-fluid">
             <div class="d-flex justify-content-center">
@@ -355,32 +290,38 @@
             </div>
         </div><br><br>
         <!--Formulário-->
-        <div class="container-desenho formulario">
-            <div class="container-fluid">
-                <form class="formulario-contato btnTamanho">
+        <div class="container-fluid">
+            <div class="tela-principal">
 
-                    <div class="form-group">
-                        <label id="contatos">Contate-nos</label>
-                        <input type="text" class="form-control " id="nome-um" placeholder="nome">
-                    </div>
+                <div class="container">
 
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="email-um" placeholder="email">
-                    </div>
+                    <form action="post">
 
-                    <div class="form-group">
-                        <textarea class="form-control" id="mensagem-um" rows="3"
-                            placeholder="Digite sua mensagem aqui..."></textarea>
-                    </div>
+                        <div>
+                            <h1 id="Contato">Contate-nos</h1>
+                        </div>
 
-                    <div>
-                        <button type="button" class="botao">Enviar</button>
-                    </div>
-                </form>
+                        <div class="form-group">
+                            <input class="contatos-sabia" type="text" placeholder="nome">
+                        </div>
+
+                        <div class="form-group">
+                            <input class="contatos-sabia" type="text" placeholder="email">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea cols="42" rows="5" placeholder="Digite uma mensagem aqui..."></textarea>
+                        </div>
+
+                        <div>
+                            <button class="btn botao-enviar"><b>Enviar</b></button>
+                        </div>
+
+                    </form>
+                </div>
 
             </div>
         </div>
-
 
 
         <!-- JavaScript (Opcional) -->
