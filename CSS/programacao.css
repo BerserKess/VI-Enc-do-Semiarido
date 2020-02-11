@@ -1,14 +1,19 @@
 #espacamento{
-    margin-top: 15%;
+    padding-top: 8%;   
     
 }
 
-.margem{
-    width: 70%;
+.texto-diferente{
+    color: #A78633;
 }
-.margem{
-    width: 70%;
+.tamanho-letra{
+    font-size: 46px;
 }
-.margem2{
-    width: 85%;
+
+@media screen and (max-width: 600px) {
+    #espacamento{
+        padding-top: 20%; 
+               
+    }
 }
+
