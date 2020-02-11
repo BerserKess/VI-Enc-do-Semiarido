@@ -1,9 +1,10 @@
 .tela1{
     background-image: url('Imagens/imgsatcamp1.png');
     margin: 20px;
+    padding-bottom: 14px;
 }
 
-.container{
+.container-tela{
     display: flex;
     flex-direction: column;
     justify-content: center;
