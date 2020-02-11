@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+    padding: 25px;
 }
 
 .formulario-cont{
@@ -20,4 +20,9 @@
 .botao-form{
     background-color:#BAD968;
     width: 200px;
+}
+
+.botao-cont{
+    display: flex;
+    align-self:flex-end;
 }
