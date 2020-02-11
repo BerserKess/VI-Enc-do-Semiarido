@@ -1,24 +1,23 @@
-.container{
+.formulario-teste{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     
 }
 
-#Contato{
-    color:#4E966D;
-}
-
-.tela-principal{
-    background-color:#156FA3;
-}
-
-.contatos-sabia{
+.formulario-cont{
     width: 100%;
 }
 
-.botao-enviar{
+.tela-principal{
+   background-color: #156FA3;;
+}
+
+#contato{
+    color:#4E966D;
+}
+.botao-form{
     background-color:#BAD968;
     width: 200px;
 }
