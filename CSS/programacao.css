@@ -2,11 +2,16 @@
     padding-top: 8%;   
     
 }
+.seta-baixo{
+    font-size:30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
 
-.texto-diferente{
+.texto-colorido{
     color: #A78633;
 }
-.tamanho-letra{
+.tamanho-programacao{
     font-size: 46px;
 }
 
