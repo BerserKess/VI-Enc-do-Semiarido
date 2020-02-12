@@ -26,3 +26,7 @@
     display: flex;
     align-self:flex-end;
 }
+.contato-titulo{
+    display: flex;
+    align-items: center;
+}

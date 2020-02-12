@@ -10,6 +10,89 @@
 </head>
 
 <body>
+    <!--div do Navbar-->
+    <div class="bar-cont">
+        <!--Navbar Celular-->
+        <div class="container-fluid mostrar">
+            <!--Navbar-->
+            <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img class="logoTamanho img-fluid" src="Imagens/logo.png">
+                </a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler " type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Programação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inscrições</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conheça Campina Grande</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conheça o INSA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hospedagem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contato">Contate-nos</a>
+                        </li>
+                    </ul>
+                    <!-- Links -->
+
+                </div>
+            </nav>
+        </div>
+        <!--Navbar PC-->
+        <div class="container-fluid esconder">
+
+            <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img class="logoTamanho" src="Imagens/logo.png">
+                </a>
+                <!-- Links -->
+
+                <ul class="navbar-nav ml-auto mr-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Programação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inscrições</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                            Mais Informações
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Conheça Campina Grande</a>
+                            <a class="dropdown-item" href="#">Conheça o INSA</a>
+                            <a class="dropdown-item" href="#">Hospedagem</a>
+                            <a class="dropdown-item" href="#contato">Contate-nos</a>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+
 
     <div class="tela-principal">
 
@@ -80,8 +163,7 @@
                 <div id="carouselnext" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100  imagemturismo" src="Imagens/piramide.jpg"
-                                alt="primeiro slide">
+                            <img class="d-block w-100  imagemturismo" src="Imagens/piramide.jpg" alt="primeiro slide">
                             <div class="carousel-caption d-nome d-md-block">
                                 <h5>piramide do parque do povo</h5>
                             </div>
@@ -94,8 +176,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100 imagemturismo" src="Imagens/Museu.jpg"
-                                alt="Terceiro slide">
+                            <img class="d-block w-100 imagemturismo" src="Imagens/Museu.jpg" alt="Terceiro slide">
                             <div class="carousel-caption d-nome d-md-block">
                                 <h5>Museu Histórico e Geográfico de Campina Grande.</h5>
                             </div>

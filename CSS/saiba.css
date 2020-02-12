@@ -84,3 +84,7 @@ font-size: x-large;
 .carousel-caption h5{
     color: whitesmoke;
 }
+
+.bar-cont{
+    padding: 60px;
+}
