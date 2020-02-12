@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="tela.css">
+    <link rel="stylesheet" href="CSS/tela.css">
     <link rel="stylesheet" href="CSS/contato.css">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/programacao.css">
@@ -23,7 +23,7 @@
 
 <body>
     <!--Navbar Celular-->
-    <div class="container-fluid mostrar">
+    <div class="container-fluid mostrar mb-5">
         <!--Navbar-->
         <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
 
@@ -68,7 +68,7 @@
         </nav>
     </div>
     <!--Navbar PC-->
-    <div class="container-fluid esconder">
+    <div class="container-fluid esconder mb-5">
 
         <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
             <!-- Brand -->
@@ -101,36 +101,340 @@
 
         </nav>
     </div>
-    <br>
-
-
-
-    <div class="container-fluid" id="espacamento">
-        <div class="d-lg-flex justify-content-center">
-            <h1 class="text-success">PROGRAMAÇÃO</h1>
-        </div>
-        <div class="d-flex justify-content-center margem mr-5">
-            <h3 class="bg-warning text-dark">28/05/2020</h3>
-        </div>
-        <div class="d-flex justify-content-center  margem2">
-            <p><b>OFICINA</b> - Semiárido em Tela: Vivência Audiovisual (Parte 1)</p>
+    <div class="container-fluid d-flex justify-content-center mb-5" id="espacamento">
+        <div class="flex-fill">
+            <h5 class="text-success tamanho-letra font-weight-bold">PROGRAMAÇÃO</h5>
         </div>
     </div>
 
 
-    <p>
-        <a  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link com href
-        </a>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-          Botão com data-target
-        </button>
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+
+    <div class="container-fluid d-flex flex-wrap justify-content-sm-around ml-1 mt-3 mb-4">
+        <div class="p-2 flex-sm-fill">
+            <div id="accordion ">
+                <div class="card">
+                    <div class="card-header  bg-success" id="headingOne">
+                        <h5 class="d-flex justify-content-center mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="false" aria-controls="collapseOne">
+                                <p class="text-white"><b>28/05/2020</b> <i class='fas fa-angle-down'
+                                        style='font-size:30px; margin-left: 50px; margin-top: 10px;'></i></p>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <b>OFICINA</b> - Semiárido em Tela: Vivência Audiovisual (Parte 1)<br>
+                            <b>Horário:</b> 8:00hs às 12:00hs e das 14:00hs às 18:00hs<br>
+                            <b>Ministrantes:</b> Felipe Lavorato e Renally Amorim (INSA)<br>
+                            <b>Local:</b> Museu do Cangaço
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <div class="p-2 flex-sm-fill">
+            <div id="accordion ">
+                <div class="card">
+                    <div class="card-header bg-success" id="headingTwo">
+                        <h5 class="d-flex justify-content-center mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                <p class="text-white"><b>29/05/2020</b> <i class='fas fa-angle-down'
+                                        style='font-size:30px; margin-left: 50px; margin-top: 10px;'></i></p>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <p><b>OFICINA</b> - Semiárido em Tela: Vivência Audiovisual (Parte 2)<br>
+                                <b>Horário:</b> 14:00hs às 17:00hs e das 18:00hs às 21:00hs <br>
+                                <b>Ministrantes:</b> Felipe Lavorato e Renally Amorim (INSA) <br>
+                                <b>Local:</b> Museu do Cangaço</p> <br>
+                            ​
+
+                            <p><b>EVENTO -</b> Exposição de Trabalhos Científicos <br>
+                                <b>Horário:</b> 13:00hs às 17:00hs <br>
+                                <b>Ministrantes:</b> Alunos inscritos <br>
+                                <b>​Local:</b> IFPE Serra Talhada</p> <br> ​
+
+                            <p class="texto-diferente"><b>SOLENIDADE DE ABERTURA</b> - Grupo de Xaxado Cabras de
+                                Lampião<br>
+                                <b>Horário:</b> 18:30hs <br>
+                                <b>Ministrantes:</b> Marcelo Brito Carneiro Leão,<br> Antônio Carlos da Silva Miranda
+                                e<br> Danielli Matias de
+                                Macedo Dantas. <br>
+                                ​<b>Local:</b> Câmara de Vereadores de Serra Talhada</p> <br>
+                            ​
+
+                            <p><b>PALESTRA -</b> O Observatório Nacional: do Eclipse de Sobral<br> ao Observatório de
+                                Itacuruba -PE<br>
+                                <b>Horário:</b> 19:00hs<br>
+                                <b>Ministrantes:</b> Daniela Lazzaro e Teresinha Rodrigues<br> (Observatório
+                                Nacional-RJ/MCTI)<br>
+                                ​<b>Local:</b> Câmara de Vereadores de Serra Talhada</p><br>
+                            ​
+
+                            <p><b>VIVÊNCIA -</b> Noite de observação astronômica<br>
+                                <b>Horário:</b> 20:00hs<br>
+                                <b>Ministrantes:</b> Equipe do projeto “Desvendando o Céu Austral”<br>
+                                ​<b>Local:</b> Estacionamento da Câmara de Vereadores de Serra Talhada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-2 flex-sm-fill">
+            <div id="accordion ">
+                <div class="card">
+                    <div class="card-header bg-success" id="headingThree">
+                        <h5 class=" d-flex justify-content-center mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                <p class="text-white"><b>30/05/2020</b> <i class='fas fa-angle-down'
+                                        style='font-size:30px; margin-left: 50px; margin-top: 10px;'></i></p>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>EXPOSIÇÃO - “Ciência Móvel” do Espaço Ciência com: sessões do planetário,<br> Caravana
+                                dos
+                                Notáveis Cientistas de Pernambuco.<br>
+                                Horário: 8:00hs às 12:00hs e 14:00hs às 18:00hs<br>
+                                Local: Ginásio Poliesportivo Egídio Torres de Carvalho<br>
+                                Responsáveis: Equipe do Espaço Ciência</p><br>
+                            ​
+
+                            <p>VISITA TÉCNICA Observação Astronômica do Sertão de Itaparica - PE (OASI)<br>
+                                Horário: 13:00hs<br>
+                                Ministrante: Equipe do OASI / Observatório Nacional - RJ<br>
+                                ​Local: Observatório Astronômico do Sertão de Itaparica - PE</p><br>
+                            ​
+
+                            <p>OFICINA - Semiárido em Tela: Vivência Audiovisual (Parte 3)<br>
+                                Horário: 8:00hs às 12:00hs e das 14:00hs às 18:00hs<br>
+                                Ministrantes: Felipe Lavorato e Renally Amorim (INSA)<br>
+                                Local: Museu do Cangaço</p><br>
+                            ​
+
+                            <p>MINICURSO - Produção e estoque de forragens nativas e exóticas da<br> Caatinga para
+                                alimentação<br>
+                                animal<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrantes: Carlos Trajano e Romildo Neves (INSA)<br>
+                                Local: UAST - Sala 02, Bloco 3</p><br>
+                            ​
+
+                            <p>MINICURSO - Cultivo de palma forrageira resistente a cochonilha do carmim<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrantes: Evaldo Felix e Elder Cunha Lira (INSA)<br>
+                                Local: UAST - Sala 03, Bloco 3</p><br>
+                            ​
+
+                            <p>MINICURSO - Perspectivas e desafios do uso de água residuária na agricultura<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrante: Adriana Magalhães (INSA)<br>
+                                Local: UAST - Sala 12, Bloco 3</p><br>
+                            ​
+
+                            <p>MINICURSO - Cactáceas: Cultivo in vitro e conservação<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrantes: Pollyana Karla e Micheli Leite (INSA)<br>
+                                ​Local: UAST - Laboratório de Microscopia II</p><br>
+                            ​
+
+                            <p>OFICINA - Robótica - Kit LEGO BOOST<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrante: Ellen Polliana Ramos Souza (UFRPE)<br>
+                                ​Local: Colégio Municipal Cônego Torres</p><br>
+                            ​
+
+                            <p>MINICURSO - Experimentoteca de solos e Oficina de Geotintas<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrante: Vanessa Gomes (INSA)<br>
+                                ​Local: Escola Municipal Manoel Pereira Neto</p><br>
+                            ​
+
+                            <p>MINICURSO - Drones: Teoria e voo (Parte 1)<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrantes: Cícero Fidelis, Heithor Alexandre e Felipe Lavorato (INSA)<br>
+                                ​Local: UAST - Sala 11, Bloco 1 (Laboratório)</p><br>
+                            ​
+
+                            <p>PALESTRA - O Início e Evolução da Vida na Terra<br>
+                                Horário: 8:00hs às 12:00hs<br>
+                                Ministrante: Maria das Graças Santos das Chagas (UFRPE)<br>
+                                ​Local: Escola Erem Adauto de Carvalho</p><br>
+                            ​
+
+                            <p>PALESTRA - Tecnologia da Informação e Comunicação na Educação<br>
+                                Horário: 9:00hs às 10:00hs<br>
+                                Ministrante: Marcelo Brito Carneiro Leão (UFRPE)<br>
+                                ​Local: Auditório da UAST</p><br>
+                            ​
+
+                            <p>PALESTRA - Aquicultura responsável em zonas costeiras<br>
+                                Horário: 9:00hs às 10:00hs<br>
+                                Ministrante: Alfredo Olivera Gálvez (UFRPE)<br>
+                                ​Local: UAST - Sala 5, Bloco 3</p><br>
+                            ​
+
+                            <p>OFICINA - Montagem e lançamento de foguetes educativos<br>
+                                Horário: 9:00hs às 11:00hs<br>
+                                Ministrante: Antônio Carlos da Silva Miranda (UFRPE)<br>
+                                ​Local: Escola Solidôneo Leite<br>
+                                ​
+
+                                <p></p>MINICURSO - Reuso de água na agricultura: métodos analíticos<br> para controle
+                                microbiológico<br>
+                                Horário: 9:00hs às 11:00hs<br>
+                                Ministrante: George Lambais (INSA)<br>
+                                ​Local: Escola Erem Adauto de Carvalho</p><br>
+                            ​
+
+                            <p>PALESTRA - Constelações da Bandeira do Brasil<br>
+                                Horário: 9:00hs às 11:00hs<br>
+                                Ministrantes: Ana Paula Bruno e Abdias Silva (UFRPE)<br>
+                                ​Local: Colégio de Aplicação FAFOPST</p><br>
+                            ​
+
+                            <p>OFICINA - Desvendando os Tubarões: Vilões ou Vítimas?<br>
+                                Horário: 9:00hs às 11:00hs<br>
+                                Ministrantes: Mariana Guimarães Azevedo e Luiza Vlentim Veras (UFRPE/UFPE)<br>
+                                ​Local: Escola Antônio Timóteo</p><br>
+                            ​
+
+                            <p>VIVÊNCIA - Observação Astronômica de Manchas Solares<br>
+                                Horário: 9:00hs às 11:00hs<br>
+                                Ministrantes: Samyr Pessoa da Silva e Romário Santana Midon (UFRPE)<br>
+                                ​Local: ETE Clóvis Nogueira Alves</p><br>
+                            ​
+
+                            <p>OFICINA de Foguetes<br>
+                                Horário: 14:00hs às 17:00hs<br>
+                                Ministrantes: João Pedro de Lima e Romário Santana Midon (UFRPE)<br>
+                                ​Local: IFPE Serra Talhada</p><br>
+                            ​
+
+                            <p>VIVÊNCIA - Observação Astronômica<br>
+                                Horário: 14:00hs às 20:00hs<br>
+                                Ministrantes: João Pedro de Lima e Romário Santana Midon (UFRPE)<br>
+                                ​Local: IFPE Serra Talhada</p><br>
+                            ​
+
+                            <p>PALESTRA - Descobrindo os microrganismos no nosso dia a dia<br>
+                                Horário: 14:00hs às 15:00hs<br>
+                                Ministrante: Virginia Medeiros de Siqueira (UFRPE)<br>
+                                ​Local: UAST - Sala 4, Bloco 3</p><br>
+
+
+                            <p>PALESTRA - Potencialidades do Semiárido: um diálogo<br> da segurança alimentar animal a
+                                partir
+                                da palma forrageira<br>
+                                Horário: 14:00hs às 16:00hs<br>
+                                Ministrante: Jaqueline Oliveira (INSA)<br>
+                                ​Local: CECOR</p><br>
+                            ​
+
+                            <p>MINICURSO - Aproveitamento de água de chuva no Semiárido Brasileiro<br>
+                                Horário: 14:00hs às 16:00hs<br>
+                                Ministrante: João Paulo Simões (INSA)<br>
+                                ​Local: CECOR</p><br>
+                            ​
+
+                            <p>PALESTRA - Língua, história e computadores: que relação é essa na construção<br> do
+                                conhecimento
+                                científico?<br>
+                                Horário: 14:00hs às 16:00hs<br>
+                                Ministrante: Cleber Alves de Ataíde (UFRPE- UAST)<br>
+                                ​Local: IFPE Serra Talhada</p><br>
+                            ​
+
+                            <p>OFICINA - Aprendendo ciências através do Arduino<br>
+                                Horário: 14:00hs às 17:00hs<br>
+                                Ministrantes: Pedro Henrique Paz Sobral e Marcelo Batista de Lima (UFRPE)<br>
+                                ​Local: IFPE Serra Talhada</p><br>
+                            ​
+
+                            <p>OFICINA - Robótica - Kit LEGO Mindstorm<br>
+                                Horário: 14:00hs às 18:00hs<br>
+                                Ministrante: Ellen Polliana Ramos Souza (UFRPE)<br>
+                                ​Local: IFPE Serra Talhada</p><br>
+                            ​
+
+                            <p>OFICINA - Tecnologia de materiais de construção no sertão do Pajeú<br>
+                                Horário: 14:00hs às 18:00hs<br>
+                                Ministrante: Joedy Santa Rosa (FIS)<br>
+                                ​Local: Sala de Laboratório da FIS</p><br>
+                            ​
+
+                            <p>MINICURSO - Drones: análise espacial (Parte 2)<br>
+                                Horário: 14:00hs às 18:00hs<br>
+                                Ministrantes: Cícero Fidelis, Heithor Alexandre e Felipe Lavorato (INSA)<br>
+                                ​Local: UAST - Sala 11, Bloco 1 (Laboratório)</p><br>
+                            ​
+
+                            <p>OFICINA - Comunicação Imagética: Criação de projetos gráficos<br> para comunicação em
+                                mídias<br>
+                                Horário: 14:00hs às 18:00hs<br>
+                                Ministrante: Chateaubriand Almeida (INSA)<br>
+                                ​Local: UAST - Sala 14, Bloco 1</p><br>
+                            ​
+
+                            <p>MINICURSO - Perspectivas e desafios do uso de água residuária na agricultura<br>
+                                Horário: 14:00hs às 18:00hs<br>
+                                Ministrante: Adriana Magalhães (INSA)<br>
+                                ​Local: UAST - Sala 12, Bloco 3</p><br>
+                            ​
+
+                            <p>MINICURSO - Reuso de água na agricultura: métodos analíticos<br> para controle
+                                microbiológico<br>
+                                Horário: 14:00hs às 18:00hs<br>
+                                Ministrante: George Lambais (INSA)<br>
+                                ​Local: Escola Antônio Timóteo</p><br>
+                            ​
+
+                            <p>VIVÊNCIA Observação Astronômica Noturna<br>
+                                Horário: 19:00hs às 21:00hs<br>
+                                Ministrante: Equipe do Projeto "Desvendado o Céu Austral" (UFRPE)<br>
+                                ​Local: UAST - Em frete ao Bloco 2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-2 flex-sm-fill">
+            <div id="accordion ">
+                <div class="card">
+                    <div class="card-header bg-success" id="headingFour">
+                        <h5 class=" d-flex justify-content-center mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour">
+                                <p class="text-white"><b>31/05/2020</b> <i class='fas fa-angle-down'
+                                        style='font-size:30px; margin-left: 50px; margin-top: 10px;'></i></p>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid.
+                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                            laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                            coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                            anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                            occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                            heard
+                            of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -141,6 +445,7 @@
 
 
 
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
