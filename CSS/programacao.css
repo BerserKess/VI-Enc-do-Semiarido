@@ -1,3 +1,24 @@
 #espacamento{
-    margin-top: 8%;
+    padding-top: 8%;   
+    
 }
+.seta-baixo{
+    font-size:30px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.texto-colorido{
+    color: #A78633;
+}
+.tamanho-programacao{
+    font-size: 46px;
+}
+
+@media screen and (max-width: 600px) {
+    #espacamento{
+        padding-top: 20%; 
+               
+    }
+}
+
