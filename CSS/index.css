@@ -35,22 +35,7 @@
 
 
 @media screen and (max-width: 600px) {
-    .mostrar {
-        display: block;
-        width: auto;
-        
-    }
-
-    .esconder {
-        display: none;
-        
-    }
-
-    .logoTamanho {
-        width: 80%;
-    }
-
-    .cartaoTamanho {
+     .cartaoTamanho {
         width: auto;
     }
 
@@ -75,16 +60,5 @@
 
     .btnTamanho {
         width: 100%;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .esconder {
-        display: block;
-        
-    }
-
-    .mostrar {
-        display: none;        
     }
 }

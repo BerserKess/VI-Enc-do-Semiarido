@@ -10,8 +10,9 @@
     width: 100%;
 }
 
-.tela-principal{
-   background-color: #156FA3;;
+.tela-formulario{
+   background-color: #156FA3;
+   margin-top: 15px;
 }
 
 #contato{
