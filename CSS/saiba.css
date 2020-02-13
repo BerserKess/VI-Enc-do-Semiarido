@@ -1,90 +1,60 @@
-.container{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
+.espaco{
+  padding-top: 8%;
+  color:#B9D270;
 }
 
-.titulo1{
-   display: flex;
-   align-items: center;
-   text-align: center;
+.video-cidins{
+  width: 50%;
 }
 
-.Titulo-pagina{
-    color:#B9D270;
-    padding: 10px;
+.parag-informa{
+  width: 50%;
+  padding-top: 10px;
 }
-
-.video1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.paragrafos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: justify;
-    width: 800px;
-}
-
-.paragrafo1{
-   padding: 25px;
-}
-
-.carrosel{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.titulos{
-    text-align:left;
-}
-.turismo{
-    align-self: flex-start;
-    margin-left: 20px;
-}
-
 .imagemturismo{
-    width: 400px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
-#container-carousel{
-   width: 70%;
+.hospeda{
+  color:#B9D270;
 }
 
-.conter-hospedagem{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.imagem-hotel{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid yellow;
+.container-hospedar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .inform{
-    padding-left: 25px;
-
+  padding: 10px;
 }
 
-.inform b{
-font-size: x-large;
+.imag-turis{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid yellow;
 }
 
-.carousel-caption h5{
-    color: whitesmoke;
+@media screen and (max-width:600px){
+   #espaco{
+     display: block;
+     padding-top: 8%;
+   }
+   .video-cidins{
+    width: auto;
+  }
+  .parag-informa{
+    width: auto;
+  }
 }
 
-.bar-cont{
-    padding: 60px;
+@media screen and (min-width){
+  #espaco{
+    margin-top: 8%;
+  }
+  .video-cidins{
+    width: auto;
+  }
 }
