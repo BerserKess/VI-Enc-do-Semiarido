@@ -7,18 +7,43 @@
     margin-left: 50px;
     margin-top: 10px;
 }
+.seta-baixo-copy{
+    font-size:30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
 .texto-colorido{
     color: #A78633;
 }
-.tamanho-programacao{
+.tamanho-nome-programacao{
     font-size: 46px;
+}
+.tamanho-programacao{
+    width: 40%;
+}
+.tamanho-programacao-copy{
+    width: 100%;
+}
+
+.tamanho-texto{
+    max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
     #espacamento{
         padding-top: 20%; 
                
+    }
+
+    .tamanho-programacao{
+        width: auto;
+    }
+    .tamanho-programacao-copy{
+        width: auto;
+    }
+    .tamanho-texto{
+        width:auto;        
     }
 }
 
