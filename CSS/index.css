@@ -32,6 +32,70 @@
     width: 30%;
 }
 
+.tela1{
+    background-image: url('../Imagens/imgsatcamp1.png');
+    margin: 20px;
+    padding-bottom: 14px;
+}
+
+.container-tela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagem-um{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagem-um img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #ddd;
+}
+
+.titulo-cidade h1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    color:#BCA87E;
+}
+
+
+
+.paragrafo-saibamais{
+    align-content: center;
+}
+
+.paragrafo-saibamais p{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#saiba-mais{
+    background-color:#BBDA65;
+}
+
+
+
+
 
 
 @media screen and (max-width: 600px) {
