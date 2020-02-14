@@ -23,11 +23,17 @@
     width: 40%;
 }
 .tamanho-programacao-copy{
-    width: 100%;
+    width: 40%;
 }
 
 .tamanho-texto{
     max-width: 100%;
+}
+.texto-data{
+    font-size: 25px;
+}
+.bg-semiarido{
+    background-color: #febc4a;
 }
 
 @media screen and (max-width: 600px) {
@@ -40,7 +46,7 @@
         width: auto;
     }
     .tamanho-programacao-copy{
-        width: auto;
+        width: 90%;
     }
     .tamanho-texto{
         width:auto;        
